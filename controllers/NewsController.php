@@ -87,7 +87,7 @@ class NewsController extends Controller
      * Action for ajax in news/listed.
      * @return string
      */
-    public function actionMori()
+    public function actionSuggest()
     {
         Yii::$app->response->format = Response::FORMAT_JSON;
         if(isset(Yii::$app->request->get()['keyword'])){

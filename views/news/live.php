@@ -13,7 +13,7 @@ $('#search-field').on('keyup',function(){
     var searchh=$('#search-help');
     if(key.length!=''){
         $.ajax({
-            url: '?r=news%2Fmori',
+            url: '?r=news%2Fsuggest',
             type: 'GET',
             dataType:'json',
             data: {
