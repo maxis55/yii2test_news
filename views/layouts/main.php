@@ -41,7 +41,7 @@ AppAsset::register($this);
             ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Retriever', 'url' => ['/news/retriever']],
             ['label' => 'News', 'url' => ['/news']],
-            ['label' => 'News As List(Show more button here)', 'url' => ['/news/listed']],
+            ['label' => 'News As List(Show more button here) ', 'url' => ['/news/listed']],
             ['label' => 'News LiveSearch', 'url' => ['/news/live']],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
